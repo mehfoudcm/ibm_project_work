@@ -1,7 +1,7 @@
 // src/controllers/userController.test.js
 const request = require('supertest');
-const app = require('../app'); // Assuming you have an Express app set up in app.js
-const User = require('../models/userModel');
+const app = require('../src/app'); // Assuming you have an Express app set up in app.js
+const User = require('../src/models/userModel');
 const bcrypt = require('bcrypt');
 
 // Mock the User model
@@ -130,4 +130,5 @@ describe('User Controller', () => {
     });
   });
 });
+
 
