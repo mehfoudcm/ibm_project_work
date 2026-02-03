@@ -3,7 +3,7 @@ const User = require('../models/userModel');
 const userService = require('./userService');
 
 // Mock the User model
-jest.mock('../models/userModel');
+jest.mock('../src/models/userModel');
 
 describe('User Service', () => {
   afterEach(() => {
@@ -47,3 +47,4 @@ describe('User Service', () => {
     });
   });
 });
+
