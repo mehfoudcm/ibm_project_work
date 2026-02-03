@@ -1,6 +1,6 @@
 // src/services/userService.test.js
 const User = require('../src/models/userModel');
-const userService = require('./userService');
+const userService = require('../src/services/userService');
 
 // Mock the User model
 jest.mock('../src/models/userModel');
@@ -47,5 +47,6 @@ describe('User Service', () => {
     });
   });
 });
+
 
 
