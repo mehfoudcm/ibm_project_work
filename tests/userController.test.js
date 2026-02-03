@@ -5,7 +5,7 @@ const User = require('../models/userModel');
 const bcrypt = require('bcrypt');
 
 // Mock the User model
-jest.mock('../models/userModel');
+jest.mock('../src/models/userModel');
 
 describe('User Controller', () => {
   afterEach(() => {
@@ -130,3 +130,4 @@ describe('User Controller', () => {
     });
   });
 });
+
